@@ -13,7 +13,7 @@ namespace Student_Data.Models
 
         }
         //reference to student class//
-        public DbSet<StudentDataModel> Students { get; set; }
+        public DbSet<Student> Students { get; set; }
     }
 
 }
